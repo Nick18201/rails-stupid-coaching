@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+  body {
+   background: #F4F4F4; // Using this variable
+  }
+
+  a {
+    justify-content: center;
+    justify-content: space-evenly;
+    color: grey;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: black;
+    }
+  }
